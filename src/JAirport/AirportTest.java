@@ -1,8 +1,9 @@
 package JAirport;
-
+import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-class AirportTest {
+public class AirportTest {
+    @Test
     public void has_storage(){
         Airport airport = new Airport();
         String storage[] = {"plane"};
