@@ -11,6 +11,10 @@ public class AirportTest {
         assertArrayEquals(storage, airport_storage);
 
     }
+    public void takeoff() {
+        Airport airport = new Airport();
+    }
+
 
 
 
