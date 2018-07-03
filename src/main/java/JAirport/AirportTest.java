@@ -14,7 +14,8 @@ public class AirportTest {
     @Test
     public void takeoff() {
         Airport airport = new Airport();
-        airport.takeoff();
+        String storage[] = {"plane"};
+        airport.takeoff(storage);
     }
 
 
