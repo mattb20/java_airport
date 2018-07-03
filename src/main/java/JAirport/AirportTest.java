@@ -11,8 +11,10 @@ public class AirportTest {
         assertArrayEquals(storage, airport_storage);
 
     }
+    @Test
     public void takeoff() {
         Airport airport = new Airport();
+        airport.takeoff();
     }
 
 
