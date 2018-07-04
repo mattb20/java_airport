@@ -1,4 +1,5 @@
 package JAirport;
+import org.junit.Before;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import java.util.ArrayList;
@@ -8,28 +9,24 @@ public class AirportTest {
     private Airport airport;
     @BeforeEach
     public void setUp() {
-        Airport airport = new Airport();
+        airport = new Airport();
+        System.out.println("Set up was called...");
     }
     @Test
     public void has_storage(){
-//        Airport airport = new Airport();
-        ArrayList<String> storage = new ArrayList<String>();
-        storage.add("plane");
-        ArrayList<String> hanger = airport.storage();
-        assertEquals(storage, hanger);
+        System.out.println("inside 1st test...");
+        ArrayList<String> test_storage = new ArrayList<String>();
+        ArrayList<String> actual_storage;
+        actual_storage = airport.storage();
+        assertEquals(test_storage, actual_storage);
 
     }
     @Test
     public void takeoff() {
-        Airport airport = new Airport();
-        ArrayList<String> plane_storage = new ArrayList<String>();
-        plane_storage.add("plane");
-        ArrayList<String> empty_hanger = airport.takeoff(plane_storage);
-        assertEquals(empty_hanger.size(), 0);
+        ArrayList<String> airport_storage = new ArrayList<String>();
+        airport_storage.add("plane");
+        ArrayList<String> empty_hanger = airport.takeoff(airport_storage);
+        assertEquals(0, empty_hanger.size());
 
     }
-
-
-
-
 }
