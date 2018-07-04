@@ -1,12 +1,18 @@
 package JAirport;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.BeforeEach;
 import java.util.ArrayList;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class AirportTest {
+    private Airport airport;
+    @BeforeEach
+    public void setUp() {
+        Airport airport = new Airport();
+    }
     @Test
     public void has_storage(){
-        Airport airport = new Airport();
+//        Airport airport = new Airport();
         ArrayList<String> storage = new ArrayList<String>();
         storage.add("plane");
         ArrayList<String> hanger = airport.storage();
