@@ -15,7 +15,9 @@ public class AirportTest {
     public void takeoff() {
         Airport airport = new Airport();
         String storage[] = {"plane"};
-        airport.takeoff(storage);
+        String post_takeoff[] = airport.takeoff(storage);
+        assertEquals(post_takeoff.length, 0);
+
     }
 
 

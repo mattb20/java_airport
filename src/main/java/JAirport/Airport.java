@@ -7,6 +7,7 @@ public class Airport {
         return (hanger);
     }
     public static String[] takeoff(String[] airport_storage){
+        return airport_storage;
 
     }
 }
