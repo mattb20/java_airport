@@ -14,4 +14,8 @@ public class Airport {
         return airport_storage;
 
     }
+    public ArrayList<String> land_plane(String plane) {
+//        Airport.hanger.add(plane);
+
+    }
 }
