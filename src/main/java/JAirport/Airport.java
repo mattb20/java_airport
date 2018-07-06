@@ -15,7 +15,7 @@ public class Airport {
 
     }
     public ArrayList<String> land_plane(String plane) {
-//        Airport.hanger.add(plane);
-
+        hanger.add(plane);
+        return hanger;
     }
 }
