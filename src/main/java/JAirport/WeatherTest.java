@@ -18,6 +18,7 @@ public class WeatherTest {
     }
     @Test
     public void random_number() {
-        weather.generate_number();
+        int random_number = weather.generate_number();
+        assertTrue(random_number <= 10);
     }
 }
