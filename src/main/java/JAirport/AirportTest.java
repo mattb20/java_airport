@@ -34,4 +34,13 @@ public class AirportTest {
         assertEquals(1, airport.hanger.size());
 
     }
+    @Test
+    public void alertwhenfull() {
+        int capacity = 4;
+        airport.land_plane("plane");
+        airport.land_plane("plane");
+        airport.land_plane("plane");
+        airport.land_plane("plane");
+        assertEquals("Airport storage full!", airport.land_plane("plane"));
+        }
 }

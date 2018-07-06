@@ -4,25 +4,22 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import static org.junit.jupiter.api.Assertions.*;
-public class WeatherTest {
-    private Weather weather;
-    class WeatherStub extends Weather {
-        @Override
-        public int generate_number() {
-            return 1;
-        }
-
+class WeatherStub extends Weather {
+    @Override
+    public int generate_number() {
+        return 1;
     }
 
+}
+public class WeatherTest {
+    private Weather weather;
     @BeforeEach
     void setUp() {
         weather = new Weather();
     }
-
     @Test
     public void get_weather() {
-        String generated_weather;
-        generated_weather = weather.get();
+        String generated_weather = weather.get();
         assertTrue(generated_weather == "stormy" || generated_weather == "clear");
     }
     @Test
