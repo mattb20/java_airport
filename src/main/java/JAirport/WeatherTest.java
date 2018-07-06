@@ -6,6 +6,13 @@ import java.util.ArrayList;
 import static org.junit.jupiter.api.Assertions.*;
 public class WeatherTest {
     private Weather weather;
+    class WeatherStub extends Weather {
+        @Override
+        public int generate_number() {
+            return 1;
+        }
+
+    }
 
     @BeforeEach
     void setUp() {
@@ -14,7 +21,9 @@ public class WeatherTest {
 
     @Test
     public void get_weather() {
-        weather.get();
+        String generated_weather;
+        generated_weather = weather.get();
+        assertTrue(generated_weather == "stormy" || generated_weather == "clear");
     }
     @Test
     public void random_number() {
