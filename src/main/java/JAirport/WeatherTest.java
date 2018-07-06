@@ -16,4 +16,8 @@ public class WeatherTest {
     public void get_weather() {
         weather.get();
     }
+    @Test
+    public void random_number() {
+        weather.generate_number();
+    }
 }
