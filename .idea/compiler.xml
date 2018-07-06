@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="JAirport" target="1.5" />
+      <module name="JAirport" target="1.10" />
     </bytecodeTargetLevel>
   </component>
 </project>

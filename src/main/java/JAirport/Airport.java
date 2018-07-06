@@ -6,6 +6,7 @@ import java.util.Arrays;
 import JAirport.Weather;
 public class Airport {
     ArrayList<String> hanger = new ArrayList<String>();
+    int capacity = 4;
     public ArrayList<String> storage() {
         return hanger;
     }
@@ -15,7 +16,13 @@ public class Airport {
 
     }
     public ArrayList<String> land_plane(String plane) {
-        hanger.add(plane);
-        return hanger;
+        if(hanger.size() < capacity) {
+            hanger.add(plane);
+            return hanger;
+        } else {
+            throw new java.lang.RuntimeException("Airport storage full!");
+        }
+
     }
+
 }

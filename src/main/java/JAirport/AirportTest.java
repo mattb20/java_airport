@@ -41,6 +41,6 @@ public class AirportTest {
         airport.land_plane("plane");
         airport.land_plane("plane");
         airport.land_plane("plane");
-        assertEquals("Airport storage full!", airport.land_plane("plane"));
+        assertThrows(RuntimeException.class, () -> airport.land_plane("plane"));
         }
 }
