@@ -31,7 +31,9 @@ public class AirportTest {
     }
     @Test
     public void landing() {
-        airport.land_plane();
+        String plane = "plane";
+        airport.land_plane(plane);
+        assertEquals(1, airport.hanger.size());
 
     }
 }
