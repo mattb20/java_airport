@@ -10,11 +10,9 @@ public class AirportTest {
     @BeforeEach
     public void setUp() {
         airport = new Airport();
-        System.out.println("Set up was called...");
     }
     @Test
     public void has_storage(){
-        System.out.println("inside 1st test...");
         ArrayList<String> test_storage = new ArrayList<String>();
         ArrayList<String> actual_storage;
         actual_storage = airport.storage();
