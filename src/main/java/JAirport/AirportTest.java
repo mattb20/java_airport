@@ -29,4 +29,9 @@ public class AirportTest {
         assertEquals(0, empty_hanger.size());
 
     }
+    @Test
+    public void landing() {
+        airport.land_plane();
+
+    }
 }
