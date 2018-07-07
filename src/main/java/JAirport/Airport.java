@@ -20,7 +20,7 @@ public class Airport {
 
     }
     public ArrayList<String> land_plane(String plane) {
-        if(hanger.size() < capacity) {
+        if(hanger.size() < capacity && condition == "clear") {
             hanger.add(plane);
             return hanger;
         } else {
