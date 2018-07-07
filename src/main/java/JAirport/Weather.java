@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class Weather {
+    String conditions = get();
     public String get() {
         String weather = generate_number() < 2 ? "stormy" : "clear";
         return weather;

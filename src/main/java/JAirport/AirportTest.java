@@ -45,6 +45,6 @@ public class AirportTest {
         }
        @Test
     public void has_weather() {
-        assertTrue(airport.conditions == "stormy" || airport.conditions == "clear");
+        assertTrue(airport.condition == "stormy" || airport.condition == "clear");
        }
 }
