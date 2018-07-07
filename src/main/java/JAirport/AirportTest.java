@@ -43,4 +43,8 @@ public class AirportTest {
         airport.land_plane("plane");
         assertThrows(RuntimeException.class, () -> airport.land_plane("plane"));
         }
+       @Test
+    public void has_weather() {
+        assertTrue(airport.conditions == "stormy" || airport.conditions == "clear");
+       }
 }

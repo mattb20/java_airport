@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3d0017f-09c0-4873-89b3-0e47cba5a2c1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAirport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JAirport.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/JAirport/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JAirport/Airport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/JAirport/AirportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JAirport/AirportTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JAirport/Airport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JAirport/AirportTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JAirport/Weather.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JAirport/WeatherStub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JAirport/WeatherTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,14 +16,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.49811321">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Airport.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Airport.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/JAirport/Airport.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+                <state relative-caret-position="117">
+                  <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#165#173#0" expanded="true" />
@@ -43,8 +35,8 @@
           <file leaf-file-name="Weather.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/JAirport/Weather.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+                <state relative-caret-position="75">
+                  <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -52,15 +44,17 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="AirportTest.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="AirportTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/JAirport/AirportTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="447">
+                <state relative-caret-position="401">
                   <caret line="34" selection-start-line="34" selection-end-line="34" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#294#295#0" expanded="true" />
                     <element signature="e#333#334#0" expanded="true" />
+                    <element signature="e#1372#1373#0" expanded="true" />
+                    <element signature="e#1402#1403#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -89,12 +83,14 @@
           <file leaf-file-name="AirportTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/JAirport/AirportTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="95">
-                  <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+                <state relative-caret-position="335">
+                  <caret line="45" column="12" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#294#295#0" expanded="true" />
                     <element signature="e#333#334#0" expanded="true" />
+                    <element signature="e#1372#1373#0" expanded="true" />
+                    <element signature="e#1402#1403#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -127,11 +123,11 @@
         <option value="$PROJECT_DIR$/src/main/java/JAirport/WeatherTest.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/WeatherTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/JAirport/WeatherTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JAirport/Weather.java" />
         <option value="$PROJECT_DIR$/src/main/java/JAirport/WeatherTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JAirport/Airport.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JAirport/AirportTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/JAirport/Airport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JAirport/Weather.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JAirport/AirportTest.java" />
       </list>
     </option>
   </component>
@@ -415,9 +411,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WeatherTest_(1) - 2018.07.06 at 14h 25m 42s.xml">
-      <configuration name="WeatherTest (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WeatherTest_(1) - 2018.07.06 at 14h 31m 43s.xml">
       <configuration name="WeatherTest (1)" configurationId="JUnit" />
     </history-entry>
@@ -445,6 +438,9 @@
     <history-entry file="AirportTest - 2018.07.06 at 15h 15m 58s.xml">
       <configuration name="AirportTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AirportTest - 2018.07.06 at 16h 17m 20s.xml">
+      <configuration name="AirportTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="872" extended-state="6" />
@@ -452,7 +448,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32845744" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32845744" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -460,7 +456,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32832617" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32934928" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32845744" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32978722" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32978722" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24177396" />
@@ -562,16 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JAirport/Weather.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JAirport/WeatherTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -582,17 +568,6 @@
             <element signature="e#300#301#0" expanded="true" />
             <element signature="e#376#377#0" expanded="true" />
             <element signature="e#415#416#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JAirport/Airport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#165#173#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -618,14 +593,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JAirport/Airport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#165#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JAirport/Weather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JAirport/AirportTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="335">
+          <caret line="45" column="12" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#294#295#0" expanded="true" />
             <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#1372#1373#0" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
           </folding>
         </state>
       </provider>
