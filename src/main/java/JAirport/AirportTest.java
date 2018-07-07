@@ -47,4 +47,9 @@ public class AirportTest {
     public void has_weather() {
         assertTrue(airport.condition == "stormy" || airport.condition == "clear");
        }
+       @Test
+    public void refuse_landing_when_stormy() {
+        airport.condition = "stormy";
+        assertThrows(RuntimeException.class, () -> airport.land_plane("plane"));
+       }
 }

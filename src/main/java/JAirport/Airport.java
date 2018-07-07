@@ -5,10 +5,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import JAirport.Weather;
 public class Airport {
+
     ArrayList<String> hanger = new ArrayList<String>();
     Weather weather = new Weather();
     String condition = weather.conditions;
     int capacity = 4;
+
     public ArrayList<String> storage() {
         return hanger;
     }
