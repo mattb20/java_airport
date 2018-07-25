@@ -2,8 +2,7 @@ package JAirport;
 
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import JAirport.Weather;
+
 public class Airport {
 
     ArrayList<String> hanger = new ArrayList<String>();
