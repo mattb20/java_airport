@@ -14,5 +14,6 @@
     <orderEntry type="library" name="groovy-2.5.0" level="application" />
     <orderEntry type="library" name="KotlinJavaRuntime (3)" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-all:1.8.4" level="project" />
+    <orderEntry type="library" name="Maven: error:error:unknown" level="project" />
   </component>
 </module>
